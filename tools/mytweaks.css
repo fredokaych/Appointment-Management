@@ -1,0 +1,31 @@
+
+
+.orangeb {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background: orange;
+  color: white;
+}
+.badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background: red;
+  color: white;
+}
+
+.kibeleft{
+	align-content: flex-end;
+	text-align: right;
+}
+@media (max-width: 575.98px) {
+	.kibeleft{
+		align-content:flex-start;
+		text-align: left;
+	}
+}

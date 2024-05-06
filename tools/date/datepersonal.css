@@ -1,0 +1,33 @@
+.isHidden {
+  display: none; /* hide radio buttons */
+}
+
+.label {
+  display: inline-block;
+  background-color: green;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  /*padding: 5px 10px*/
+}
+
+
+.radio:checked + .label {   /* target next sibling (+) label */
+  background-color: blue;
+}
+.radio:disabled + .label {   /* target next sibling (+) label */
+  background-color: grey;
+}
+
+
+.checkbox:checked {   /* target next sibling (+) label */
+  background-color: blue;
+}
+
+
+.fill{
+	
+	border-radius: 5px;
+	padding: 2px;
+	
+}
